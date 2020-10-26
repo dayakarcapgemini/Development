@@ -1,0 +1,13 @@
+{
+	"name": "SharedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "from Demo72 ADF, Self hosted IR which connects to on premise MySQL",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/06fb675b-2d0d-432e-9cd7-b5c55419cff4/resourcegroups/Test_dayakar/providers/Microsoft.DataFactory/factories/Demo72/integrationruntimes/IRselfhost",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
