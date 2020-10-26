@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFDayakar2"
+		},
+		"SharedIR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/06fb675b-2d0d-432e-9cd7-b5c55419cff4/resourcegroups/Test_dayakar/providers/Microsoft.DataFactory/factories/Demo72/integrationruntimes/IRselfhost"
+		}
+	}
+}
