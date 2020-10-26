@@ -1,0 +1,16 @@
+{
+	"name": "MySql1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MySql",
+		"typeProperties": {
+			"connectionString": "server=LNAR-PF0VYEFN;port=3306;database=dayakar;user=root;sslmode=3;usesystemtruststore=1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjZWUxZWM2Ny0yZjY1LTQyNTktOTAwYi04Y2Q0NTdkNWM5YTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IRselfhost",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

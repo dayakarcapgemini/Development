@@ -1,0 +1,33 @@
+{
+	"name": "MySqlTableDayakar",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mysqldayakar1",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"MysqlDdNMDynamic": {
+					"value": "@dataset().dbanamefromdatascope",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"tablename": {
+				"type": "string"
+			},
+			"dbanamefromdatascope": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
